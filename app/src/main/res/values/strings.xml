@@ -1,0 +1,9 @@
+<resources>
+    <string name="namaaplikasinya">ARIL_1202150022_SI3906</string>
+    <string name="makan_malam">Makan Malam</string>
+    <string name="dengan_milea">dengan Milea</string>
+    <string name="eatbus">Eatbus</string>
+    <string name="abnormal">Abnormal</string>
+    <string name="hintmenu">Inputkan Nasi Uduk</string>
+    <string name="hintporsi">Masukan 2 porsi</string>
+</resources>

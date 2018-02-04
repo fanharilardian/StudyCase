@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context="com.example.android.studycase.SecondActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp">
+
+        <TextView
+            android:id="@+id/txtsubdinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtDenganMilea"
+            android:layout_centerHorizontal="true"
+            android:text="@string/makan_malam"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:id="@+id/txtDenganMilea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:text="@string/dengan_milea"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/menumakantxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="Menu"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/fieldNasiUduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/menumakantxt"
+                android:gravity="center"
+                android:text="Makanan"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/porsimenutxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fieldNasiUduk"
+                android:layout_marginTop="77dp"
+                android:gravity="center"
+                android:text="Porsi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/fieldDuaPorsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/porsimenutxt"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/hargamenutxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fieldDuaPorsi"
+                android:layout_marginTop="66dp"
+                android:gravity="center"
+                android:text="Harga"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtHargaBayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hargamenutxt"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

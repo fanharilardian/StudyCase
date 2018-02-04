@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context="com.example.android.studycase.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <TextView
+            android:id="@+id/txtsubdinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtDenganMilea"
+            android:layout_centerHorizontal="true"
+            android:text="@string/makan_malam"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/txtDenganMilea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dengan_milea"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/fieldNasiUduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="@string/hintmenu"
+        android:inputType="textPersonName"
+        android:paddingTop="29dp"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <EditText
+        android:id="@+id/fieldDuaPorsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="@string/hintporsi"
+        android:inputType="textPersonName"
+        android:paddingTop="25dp"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/eatbusTombol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="metodEatbus"
+            android:text="@string/eatbus"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorAccent"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="330dp" />
+
+        <Button
+            android:id="@+id/abnormalTombol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="metodAbnormal"
+            android:text="@string/abnormal"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorAccent"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="330dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
